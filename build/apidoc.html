@@ -61,12 +61,56 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.tunnel-ssh">module tunnel-ssh</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.tunnel-ssh.tunnel-ssh">
+            function <span class="apidocSignatureSpan"></span>tunnel-ssh
+            <span class="apidocSignatureSpan">(configArgs, callback)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.tunnel-ssh" id="apidoc.module.tunnel-ssh">module tunnel-ssh</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.tunnel-ssh.tunnel-ssh" id="apidoc.element.tunnel-ssh.tunnel-ssh">
+        function <span class="apidocSignatureSpan"></span>tunnel-ssh
+        <span class="apidocSignatureSpan">(configArgs, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function tunnel(configArgs, callback) {
+    var server;
+    var config;
+
+    if (!callback) {
+        callback = noop;
+    }
+    try {
+        config = createConfig(configArgs);
+        server = createServer(config);
+
+        server.listen(config.localPort, config.localHost, function (error) {
+            callback(error, server);
+        });
+    } catch (e) {
+        server = new events.EventEmitter();
+        setImmediate(function () {
+            callback(e);
+            server.emit(&#x27;error&#x27;, e);
+        });
+    }
+    return server;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
