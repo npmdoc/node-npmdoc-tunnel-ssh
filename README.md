@@ -1,9 +1,14 @@
-# api documentation for  [tunnel-ssh (v4.1.2)](https://github.com/agebrock/tunnel-ssh#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-tunnel-ssh.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-tunnel-ssh) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-tunnel-ssh.svg)](https://travis-ci.org/npmdoc/node-npmdoc-tunnel-ssh)
+# npmdoc-tunnel-ssh
+
+#### api documentation for  [tunnel-ssh (v4.1.2)](https://github.com/agebrock/tunnel-ssh#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-tunnel-ssh.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-tunnel-ssh) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-tunnel-ssh.svg)](https://travis-ci.org/npmdoc/node-npmdoc-tunnel-ssh)
+
 #### Easy extendable SSH tunnel
 
-[![NPM](https://nodei.co/npm/tunnel-ssh.png?downloads=true)](https://www.npmjs.com/package/tunnel-ssh)
+[![NPM](https://nodei.co/npm/tunnel-ssh.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/tunnel-ssh)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-tunnel-ssh/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-tunnel-ssh_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-tunnel-ssh/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-tunnel-ssh/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-tunnel-ssh/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-tunnel-ssh/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-tunnel-ssh/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-tunnel-ssh/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Christoph Hagenbrock",
-        "email": "christoph.hagenbrock@googlemail.com"
+        "name": "Christoph Hagenbrock"
     },
     "bugs": {
         "url": "https://github.com/agebrock/tunnel-ssh/issues"
@@ -65,13 +69,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "agebrock",
-            "email": "christoph.hagenbrock@googlemail.com"
+            "name": "agebrock"
         }
     ],
     "name": "tunnel-ssh",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/agebrock/tunnel-ssh.git"
@@ -82,16 +84,6 @@
     "version": "4.1.2"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module tunnel-ssh](#apidoc.module.tunnel-ssh)
-
-
-
-# <a name="apidoc.module.tunnel-ssh"></a>[module tunnel-ssh](#apidoc.module.tunnel-ssh)
 
 
 
